@@ -1,0 +1,24 @@
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-top: 1.563rem;
+    margin-right: 3rem;
+}
+.social ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.social ul li{
+    list-style: none;
+}
+.social ul li a{
+    text-decoration: none;
+}
+.social ul li a img{
+    width: 2rem;
+}

@@ -1,0 +1,29 @@
+.about {
+    padding: 2rem;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.name-about{
+    font-weight: bold;
+    margin-top: 3rem;
+}
+@media screen and (min-width: 576px){
+    .profile-picture{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px #F2F2F2;
+        transform: translateY(-70%);
+        left: 5%;
+    }
+}
+@media screen and (max-width: 575px){
+    .profile-picture{
+        position: absolute;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px #F2F2F2;
+        transform: translateY(-70%);
+        left: 35%;
+    }
+}
