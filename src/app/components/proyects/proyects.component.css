@@ -1,0 +1,15 @@
+.section-proyects{
+    padding: 1.25rem;
+    background: #EEEEEE;
+}
+.section-proyects-container{
+    width: auto;
+}
+.section-proyects-info{
+    display: inline-block;
+    text-align: justify;
+}
+.section-proyects-img{
+    display: inline-block;
+    text-align: justify;
+}
