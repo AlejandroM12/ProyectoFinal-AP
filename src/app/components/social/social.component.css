@@ -1,8 +1,17 @@
-.social{
+.social-container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+}
+.social-container .logo-header{
+    float: left;
+
+}
+.social-container .logo-header .app-logo{
+    width: 6.5rem;
+    margin-left: 2.5rem;
+}
+.social{
     float: right;
     margin-top: 1.563rem;
     margin-right: 3rem;
@@ -21,4 +30,22 @@
 }
 .social ul li a img{
     width: 2rem;
+}
+@media only screen and (min-width:0px) and (max-width:768px){
+    .social-container{
+        flex-direction: column;
+    }
+    .social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1%;
+    }
+    .social ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    .social-container .logo-header .app-logo{
+        margin-left: 0;
+    }
 }

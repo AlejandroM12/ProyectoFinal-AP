@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { APlogoComponent } from './components/aplogo/aplogo.component';
 import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AboutComponent } from './components/about/about.component';
@@ -12,19 +11,20 @@ import { EducationComponent } from './components/education/education.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HardsoftskillsComponent } from './components/hardsoftskills/hardsoftskills.component';
 import { ProyectsComponent } from './components/proyects/proyects.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    APlogoComponent,
     SocialComponent,
     BannerComponent,
     AboutComponent,
     ExperienceComponent,
     EducationComponent,
     HardsoftskillsComponent,
-    ProyectsComponent
+    ProyectsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
